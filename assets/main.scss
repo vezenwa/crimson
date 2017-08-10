@@ -17,7 +17,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
   line-height: 35px;
   color: #111;
   background-color: #fdfdfd;
@@ -83,7 +83,7 @@ img {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    font: 400 20px/1.5 "Eurostile";
+    font: 300 17px/1.5 "Eurostile";
     color: #fdfdfd;
     padding-right: 20px;
     position: relative;
@@ -96,9 +96,9 @@ img {
     display: none;
     position: absolute;
    /* font-size: 17px; */
-    font: 400 17px/1.5 "Eurostile";
-    background-color: #C70039; /*#f9f9f9 #C70039 */ 
-    min-width: 177px;
+    font: 14px "Eurostile";
+    background-color: white; /*#f9f9f9 #C70039 */ 
+    min-width: 203px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -113,7 +113,7 @@ img {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #98032D} /*#f1f1f1 #98032D */  
+    background-color: #F1ECEC} /*#f1f1f1 #98032D */  
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -129,6 +129,36 @@ img {
     width: 100%;
     display: block;
 }
+
+.btn-group button {
+    background-color: #111; /* Green background */
+    min-width: 50%;
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    font: 17px "Eurostile";
+    padding: 20px ; 
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #111;
+}
+
+.btn-group .page-link {
+    color: #fdfdfd; }
 
 
 /**
@@ -166,8 +196,7 @@ a {
     color: #111; } /*#1756a9 #2a7ae2 */
   a:hover {
     color: #111;
-    text-decoration: underline; } 
-   /* text-decoration: none; }*/
+    text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
@@ -272,8 +301,9 @@ pre {
 
 .site-nav {
   float: right;
-  font: 400 20px/1.5 "Eurostile";
-  font-size: 20px;
+  font-weight: 300; 
+  font-size: 17px;
+  font-family: "Eurostile";
   line-height: 84px; }
   .site-nav .nav-trigger {
     display: none; }
