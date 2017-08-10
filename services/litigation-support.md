@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: Litigation Support
 permalink: /services/litigation-support/
 ---
