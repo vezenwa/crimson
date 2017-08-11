@@ -83,7 +83,7 @@ img {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    font: 300 17px/1.5 "Eurostile";
+    font: 300 16px/1.5 "Eurostile";
     color: #fdfdfd;
     padding-right: 20px;
     position: relative;
@@ -96,9 +96,9 @@ img {
     display: none;
     position: absolute;
    /* font-size: 17px; */
-    font: 14px "Eurostile";
+    font: 13px "Eurostile";
     background-color: white; /*#f9f9f9 #C70039 */ 
-    min-width: 203px;
+    min-width: 192px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -302,7 +302,7 @@ pre {
 .site-nav {
   float: right;
   font-weight: 300; 
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Eurostile";
   line-height: 84px; }
   .site-nav .nav-trigger {
