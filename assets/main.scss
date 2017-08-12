@@ -83,7 +83,7 @@ img {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    font: 300 15px/1.5 "Eurostile", Helvetica, Arial, sans-serif;
+    font: 400 15px/1.5 "Eurostile", Helvetica, Arial, sans-serif;
     font-kerning: normal;
     letter-spacing: 0.5px;
     color: #fdfdfd;
@@ -98,7 +98,7 @@ img {
     display: none;
     position: absolute;
    /* font-size: 17px; */
-    font: 12px "Eurostile", Helvetica, Arial, sans-serif;
+    font: 400 12px "Eurostile", Helvetica, Arial, sans-serif;
     font-kerning: normal;
     letter-spacing: 0.5px;
     background-color: white; /*#f9f9f9 #C70039 */ 
@@ -139,7 +139,7 @@ img {
     min-width: 50%;
     border: 1px solid white; /* Green border */
     color: white; /* White text */
-    font: 300 15px "Eurostile", Helvetica, Arial, sans-serif;
+    font: 400 15px "Eurostile", Helvetica, Arial, sans-serif;
     font-kerning: normal;
     letter-spacing: 0.5px;
     padding: 18px ; 
@@ -307,7 +307,7 @@ pre {
 
 .site-nav {
   float: right;
-  font-weight: 300; 
+  font-weight: 400; 
   font-size: 15px;
   font-family: "Eurostile", Helvetica, Arial, sans-serif;
   font-kerning: normal;
