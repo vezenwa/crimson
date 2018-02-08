@@ -1,3 +1,5 @@
+I was contracted and paid to create this website for Crimson Vista company. (The documentation below is for the jekyll minima theme which I used for the website)
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
